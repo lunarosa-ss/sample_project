@@ -21,7 +21,6 @@
 		<p>
 		<li> <a href=./phpinfo.php>PHP Info</a></li>
 		<hr>
-		<P><img src="images/group-enrise-solution.png" alt="enrise-solution" width="100.00" height="40.75"></p> <small>@2021 ENRISE SOLUTION, Inc.</small>
+		<P><img src="images/group-enrise-relations.png" alt="enrise-relations" width="100.00" height="40.75"></p> <small>@2021 ENRISE RELATIONS INC.</small>
     </body>
 </html>
-
