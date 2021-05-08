@@ -23,6 +23,7 @@
         <hr>
         <p>
 			<li> <a href=https://github.com/>GitHub.com</a></li>
+			<li> <a href=https://kubernetes.io/ja/>Kubernetes (K8s)</a></li>
         <hr>
         <P><img src="images/group-enrise-relations.png" alt="enrise-relations" width="133.3" height="43.0"></p> <small>@2021 ENRISE RELATIONS INC.</small>
     </body>
