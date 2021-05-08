@@ -1,17 +1,24 @@
-name: Mirroring
+################################################################################
+## AWS CodeCommit にミラーリングする設定
+## ※ AWS 側の SSH 鍵にパスフレーズがついていると NG 
+##    NULL でパスフレーズ設定が必要
+################################################################################
 
-on: [ push, delete ]
-
-jobs:
-  to_codecommit:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: pixta-dev/repository-mirroring-action@v1
-        with:
-          target_repo_url:
-            ssh://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/ENRISE-SS
-          ssh_private_key:
-            ${{ secrets.CODECOMMIT_SSH_PRIVATE_KEY }}
-          ssh_username:
-            ${{ secrets.CODECOMMIT_SSH_PRIVATE_KEY_ID }}
+# name: Mirroring
+# 
+# on: [ push, delete ]
+# 
+# jobs:
+#   to_codecommit:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v1
+#       - uses: pixta-dev/repository-mirroring-action@v1
+#         with:
+#           target_repo_url:
+#             ssh://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/ENRISE-SS
+#           ssh_private_key:
+#             ${{ secrets.CODECOMMIT_SSH_PRIVATE_KEY }}
+#           ssh_username:
+#             ${{ secrets.CODECOMMIT_SSH_PRIVATE_KEY_ID }}
+#
