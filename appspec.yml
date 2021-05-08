@@ -6,15 +6,23 @@ files:
 
 permissions:
   - object: /var/www/html
-    pattern: "*.php"
+    pattern: "**"
     owner: apache
     group: apache
     mode: "0644"
     type:
       - file
 
-#hooks:
-#   AfterInstall:
-#   - location: Scripts/ChownChmodDocumentRoot_html.sh
-#     timeout: 180
-#     runas: root
+  - object: /var/www/html
+    pattern: "**"
+    owner: apache
+    group: apache
+    mode: 2755
+    type:
+      - directory
+
+hooks:
+   AfterInstall:
+   - location: Scripts/ChownChmodDocumentRoot_html.sh
+     timeout: 180
+     runas: root
