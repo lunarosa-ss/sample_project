@@ -22,6 +22,10 @@
 			<li> <a href="https://docs.aws.amazon.com/ja_jp/codebuild/latest/userguide/welcome.html"  target="_blank">AWS CodeBuild</a>
         <hr>
         <p>
+			<li> <a href="https://aws.amazon.com/jp/network-firewall/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc"  target="_blank">AWS Network Firewall</a>
+
+        <hr>
+        <p>
 			<li> <a href=https://github.com/>GitHub.com</a></li>
 			<li> <a href=https://kubernetes.io/ja/>Kubernetes (K8s)</a></li>
         <hr>
