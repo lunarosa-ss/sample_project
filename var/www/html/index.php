@@ -24,7 +24,7 @@
         <p>
 			<li> <a href="https://aws.amazon.com/jp/network-firewall/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc"  target="_blank">AWS Network Firewall</a>
 		<hr>
-		<li> <a href=./wordpres/wp-login.php> WordPress Login: admin/wpadmin123!</a></li>
+		<li> <a href=./wordpress/wp-login.php target="_blank"> WordPress Login: admin/wpadmin123!</a></li>
 
         <hr>
         <p>
